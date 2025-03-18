@@ -1,6 +1,11 @@
 export default function AboutMe() {
+    const styles = {
+        div: {
+            backgroundColor: --verdigris,
+        },
+    };
     return (
-        <div>
+        <div style={styles.div}>
             <img src = ".\src\assets\thumbnail_IMG_2844.jpg" alt="Ryan Gayle"/>
             <h1>About Me</h1>
             <p>

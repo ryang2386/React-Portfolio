@@ -1,6 +1,11 @@
 export default function Contact() {
+    const styles = {
+        div: {
+            backgroundColor: --verdigris,
+        },
+    };
     return (
-        <div>
+        <div style = {styles.div}>
             <h1>Contact Me</h1>
             <form>
                 <label for="name">Name:</label>
