@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './styles/palette.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import '.src/styles/palette.scss';
 import App from './App';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
