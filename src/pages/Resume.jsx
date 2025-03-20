@@ -1,7 +1,18 @@
 export default function Resume() {
+
+    const styles = {
+        div: {
+            backgroundColor: 'var(--verdigris)',
+            height: '100vh',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+        },
+    };
+
     return (
-        <div>
-            <ul>
+        <div style={styles.div}>
+            <ul style={styles.ul}>
                 <li>Typescript</li>
                 <li>Javascript</li>
                 <li>HTML</li>
