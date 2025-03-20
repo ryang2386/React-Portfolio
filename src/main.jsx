@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '.src/styles/palette.scss';
+import './styles/palette.scss';
 import App from './App';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
@@ -10,7 +10,7 @@ import Resume from './pages/Resume';
 import Error from './pages/Error';
 
 // using createBrowserRouter to route to each page
-const BrowserRouter = createBrowserRouter([
+const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,

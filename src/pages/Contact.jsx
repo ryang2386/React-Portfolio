@@ -1,7 +1,7 @@
 export default function Contact() {
     const styles = {
         div: {
-            backgroundColor: --verdigris,
+            backgroundColor: 'var(--verdigris)',
         },
     };
     return (

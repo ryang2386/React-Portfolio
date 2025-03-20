@@ -1,7 +1,9 @@
 export default function AboutMe() {
     const styles = {
         div: {
-            backgroundColor: --verdigris,
+            backgroundColor: 'var(--verdigris)',
+            height: '100px',
+            width: '100px',
         },
     };
     return (

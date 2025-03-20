@@ -6,7 +6,9 @@ function App() {
         <>
             {/* swapping between the different pages in the Nav */}
             <Nav />
-            <Outlet />
+            <main>
+                <Outlet />
+            </main>
         </>
     );
 };
