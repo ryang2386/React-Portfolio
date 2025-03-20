@@ -1,7 +1,7 @@
-import { useErrorRouter } from 'react-router-dom';
+import { useRouteError } from 'react-router-dom';
 
 export default function Error() {
-    const error = useErrorRouter();
+    const error = useRouteError();
     console.log(error);
     
     return (
