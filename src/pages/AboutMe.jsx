@@ -4,7 +4,7 @@ export default function AboutMe() {
             backgroundColor: 'var(--verdigris)',
             height: '100vh',
             display: 'flex',
-            alignItems: 'center',
+            alignItems: 'flex-start',
         },
         p: {
             padding: '35px',
