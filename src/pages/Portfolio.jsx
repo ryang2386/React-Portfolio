@@ -1,7 +1,6 @@
 export default function Portfolio() { 
     return (
         <div>
-            <h1>Portfolio</h1>
             <section>
                 <a href="https://github.com/ryang2386/Employee-Database"><img src = "src\assets\Screenshot 2025-03-18 19.05.56.png"/></a>
                 <h2>Employee Database</h2>

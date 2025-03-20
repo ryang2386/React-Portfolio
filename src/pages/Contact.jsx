@@ -6,7 +6,6 @@ export default function Contact() {
     };
     return (
         <div style = {styles.div}>
-            <h1>Contact Me</h1>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required></input>

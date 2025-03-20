@@ -1,7 +1,6 @@
 export default function Resume() {
     return (
         <div>
-            <h1>Ryan Gayle's Proficiencies</h1>
             <ul>
                 <li>Typescript</li>
                 <li>Javascript</li>
