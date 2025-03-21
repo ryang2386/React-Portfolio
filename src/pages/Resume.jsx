@@ -20,7 +20,7 @@ export default function Resume() {
                 <li>React</li>
                 <li>APIs</li>
             </ul>
-            <p>Click on the link for the downloadable version of the resume: <a href="src\assets\Ryan_Gayle_ResumeFinal.docx" download>Ryan Gayle's Resume</a></p>
+            <p>Click on the link for the downloadable version of the resume: <a href="\Ryan_Gayle_ResumeFinal.docx" download>Ryan Gayle's Resume</a></p>
         </div>
     );
 };

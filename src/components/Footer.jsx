@@ -20,19 +20,6 @@ const FooterLink = styled.a`
     ;
 
 function Footer() {
-    // const styles = {
-    //     img: {
-    //         width: '35px',
-    //     },
-    //     footer: {
-    //         backgroundColor: 'var(--mint-green)',
-    //         display: 'flex',
-    //         justifyContent: 'center',
-    //     },
-    //     a: {
-    //         margin: '7px',
-    //     },
-    // }
 
     return (
         <FooterContainer>

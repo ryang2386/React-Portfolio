@@ -12,7 +12,7 @@ export default function AboutMe() {
     };
     return (
         <div style={styles.div}>
-            <img src = ".\src\assets\thumbnail_IMG_2844.jpg" height='200px' alt="Ryan Gayle"/>
+            <img src = ".\thumbnail_IMG_2844.jpg" height='200px' alt="Ryan Gayle"/>
             <p style={styles.p}>
                 Currently, Ryan Gayle is a SEO Specialist that works for a Sports Merchandising company. Although he enjoys his current career,
                 he is looking to transition into a web or software development role to further his career. At Columbia University Computer Engineering
