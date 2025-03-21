@@ -1,0 +1,21 @@
+nav {
+    background-color: var(--paynes-gray);
+    color: var(--mint-green);
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav li {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav li:hover {
+    color: var(--baby-powder);
+}
