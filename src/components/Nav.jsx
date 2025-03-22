@@ -3,7 +3,7 @@ import './Nav.css';
 
 
 function Nav() { 
-
+    // used to determine the current page and apply correct link
     const location = useLocation().pathname;
 
     return (

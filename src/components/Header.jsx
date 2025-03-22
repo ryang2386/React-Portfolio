@@ -1,5 +1,6 @@
 import React from 'react';
 
+// styling the header
 const styles = {
     header: {
         backgroundColor: 'var(--verdigris)',
@@ -9,6 +10,7 @@ const styles = {
     },
 };
 
+// creating Header function that takes title as a prop to be passed to App
 function Header({title}) {
     return (
         <header style={styles.header}>

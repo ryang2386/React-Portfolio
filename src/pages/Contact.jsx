@@ -1,4 +1,5 @@
 export default function Contact() {
+    //styling for the contact page and form
     const styles = {
         div: {
             backgroundColor: 'var(--verdigris)',
@@ -12,6 +13,8 @@ export default function Contact() {
         },
     };
     return (
+        // returns form elements for Contact page
+        // with strict requirements for name, email, and message fields
         <div style = {styles.div}>
             <form style={styles.form}>
                 <label for="name">Name:</label>

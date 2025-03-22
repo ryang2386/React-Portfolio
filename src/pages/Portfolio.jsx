@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 
+// creating an array of objects that holds project imageURL, title, and link
 const projects = [
     {
         imageURL: "/Screenshot 2025-03-18 19.05.56.png",
@@ -34,6 +35,7 @@ const projects = [
     },
 ];
 
+// styling div element for Portfolio page
 const styles = {
     div: {
         display: 'flex',
@@ -44,8 +46,11 @@ const styles = {
 };
 
 export default function Portfolio() { 
+    // returns HTML elements for Portfolio page
     return (
         <div style={styles.div}>
+            {/* using map method to iterate the project array and render each
+            project on the page */}
             {projects.map((project, index) => (
                 <Project key={index} link={project.link} imageURL={project.imageURL} title={project.title}/>
             ))}

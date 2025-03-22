@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import './Project.css';
 
+// creating styling containers for each Project component being passed 
+// to Portfolio page
 const ProjectContainer = styled.div`
     display: flex,
     flexWrap: wrap,
@@ -50,8 +52,10 @@ const ProjectText = styled.div`
     text-align: center;
 `;
 
+// creating Project component that takes imageURL, title, and link as props
 function Project( { imageURL, title, link }) {
     return (
+        // returns Project component to be passed to Portfolio page
         <ProjectContainer>
             <ProjectLink href={link}>
                 <img src={imageURL} alt={title} />

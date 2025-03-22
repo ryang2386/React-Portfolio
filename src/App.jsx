@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+// using switch statement to change the header title based on current page
 function App() {
     const location = useLocation();
     let title;

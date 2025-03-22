@@ -1,7 +1,5 @@
-import './Resume.css';
-
 export default function Resume() {
-
+    // styling for the div element on the Resume page
     const styles = {
         div: {
             backgroundColor: 'var(--verdigris)',
@@ -12,6 +10,8 @@ export default function Resume() {
         },
     };
 
+    // returns HTML elements for the Resume page with a list of proficiencies 
+    // and a link to a downloadable resume
     return (
         <div style={styles.div}>
             <ul>

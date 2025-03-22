@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//styling the footer container
 const FooterContainer = styled.footer`
     background-color: var(--mint-green);
     display: flex;
@@ -20,7 +21,7 @@ const FooterLink = styled.a`
     ;
 
 function Footer() {
-
+    // returns the Footer component with important links
     return (
         <FooterContainer>
             <FooterLink href="https://github.com/ryang2386"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub"/></FooterLink>

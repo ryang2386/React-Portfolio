@@ -15,11 +15,12 @@ nav li {
     padding: 10px;
     transition: background-color 0.3s ease;
 }
-
+/* adding hover effect to li elements */
 nav li:hover {
     color: var(--baby-powder);
 }
 
+/* mobile friendly code */
 @media screen and (max-width: 768px) {
     nav ul {
         justify-content: center;

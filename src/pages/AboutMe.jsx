@@ -1,6 +1,7 @@
 import './AboutMe.css';
 
 export default function AboutMe() {
+    // styling for AboutMe page
     const styles = {
         div: {
             backgroundColor: 'var(--verdigris)',
@@ -14,6 +15,7 @@ export default function AboutMe() {
     };
 
     return (
+        //returns image and paragraph elements for the AboutMe page
         <div style={styles.div}>
             <img src = ".\thumbnail_IMG_2844.jpg" height='200px' alt="Ryan Gayle"/>
             <p style={styles.p}>
