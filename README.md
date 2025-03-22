@@ -25,6 +25,8 @@ First, you have to make sure that you have vite installed. To do so, type "npm c
 
  ## Usage
 The usage of this project is to have an online resume application to showcase your coding skills to employers who may want to hire you. To view this application, please visit: https://tourmaline-tarsier-951f4c.netlify.app/
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/5e18d7e1-38ab-4d90-aeb5-411fe465f06f" />
+
 
  ## Contribution
 First, I would like to thank Columbia University Coding Bootcamp for helping me with the framework to complete this application. Secondly, anyone who wants to contribute to this project are free to do so. If you have any suggestions to improve this project, fork the repo and create a pull request. Also, don't forget to give this project a star! It'll be greatly appreciated!
