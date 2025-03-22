@@ -4,12 +4,15 @@
         font-size: 15px;
     }
 
-    img {
-        padding-top: 40px;
+    div img {
+        padding-top: 160px;
         padding-left: 10px;
     }
     div {
         text-align: center;
+    }
+    footer img {
+        padding-top: 10px;
     }
 }
 
