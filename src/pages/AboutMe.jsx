@@ -1,3 +1,5 @@
+import './AboutMe.css';
+
 export default function AboutMe() {
     const styles = {
         div: {
@@ -10,6 +12,7 @@ export default function AboutMe() {
             padding: '35px',
         },
     };
+
     return (
         <div style={styles.div}>
             <img src = ".\thumbnail_IMG_2844.jpg" height='200px' alt="Ryan Gayle"/>

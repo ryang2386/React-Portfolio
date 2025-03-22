@@ -24,7 +24,7 @@ const ProjectLink = styled.a`
         object-fit: cover;
         transition: opacity 0.3s ease-in-out;
         padding: 10px;
-    };
+    }
     
     &:hover img {
         opacity: 0.8;
