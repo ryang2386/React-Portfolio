@@ -20,6 +20,10 @@ div {
     font-family: 'Georgia', serif;
 }
 
-img {
+div img {
     padding-left: 10px;
+}
+
+footer img {
+    padding: 0;
 }
