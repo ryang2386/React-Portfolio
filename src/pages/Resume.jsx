@@ -1,3 +1,5 @@
+import './Resume.css';
+
 export default function Resume() {
 
     const styles = {
@@ -12,7 +14,7 @@ export default function Resume() {
 
     return (
         <div style={styles.div}>
-            <ul style={styles.ul}>
+            <ul>
                 <li>Typescript</li>
                 <li>Javascript</li>
                 <li>HTML</li>

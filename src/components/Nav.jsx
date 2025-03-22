@@ -3,22 +3,6 @@ import './Nav.css';
 
 
 function Nav() { 
-    // const styles = {
-    //     nav: {
-    //         backgroundColor: 'var(--paynes-gray)',
-    //         color: 'var(--mint-green)',
-    //         height: '50px',
-    //     },
-    //     ul: {
-    //         listStyleType: 'none',
-    //         display: 'flex',
-    //         justifyContent: 'flex-end',
-    //         padding: '10px',
-    //     },
-    //     li: {
-    //         padding: '10px',
-    //     },
-    // };
 
     const location = useLocation().pathname;
 
