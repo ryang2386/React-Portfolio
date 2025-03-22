@@ -13,11 +13,16 @@ nav ul {
 
 nav li {
     padding: 10px;
-    transition: background-color 0.3s ease;
+    transition: var(--mint-green) 0.3s ease;
 }
 /* adding hover effect to li elements */
 nav li:hover {
     color: var(--baby-powder);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* mobile friendly code */

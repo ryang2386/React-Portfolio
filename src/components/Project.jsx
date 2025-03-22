@@ -23,7 +23,7 @@ const ProjectLink = styled.a`
 
     img {
         width: 500px;
-        height: 200px;
+        height: 175px;
         object-fit: cover;
         transition: opacity 0.3s ease-in-out;
         padding: 10px;
