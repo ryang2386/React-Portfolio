@@ -19,3 +19,9 @@ nav li {
 nav li:hover {
     color: var(--baby-powder);
 }
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+}
