@@ -15,6 +15,8 @@ export default function Resume() {
     return (
         <div style={styles.div}>
             <ul>
+                <li>Front-End development</li>
+                <li>Back-End development</li>
                 <li>Typescript</li>
                 <li>Javascript</li>
                 <li>HTML</li>
