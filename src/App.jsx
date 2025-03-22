@@ -2,7 +2,6 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './App.css';
 
 function App() {
     const location = useLocation();
